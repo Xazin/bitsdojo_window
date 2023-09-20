@@ -12,9 +12,11 @@ dependencies:
   flutter:
     sdk: flutter
   bitsdojo_window_platform_interface:
-    ^0.2.0
-    # path: ../bitsdojo_window_platform_interface
-  win32: "^5.0.5"
+    git:
+      url: https://github.com/Xazin/bitsdojo_window.git
+      ref: master
+      path: bitsdojo_window_platform_interface/
+  win32: ^5.0.8
   ffi: ^2.0.0
 
 dev_dependencies:
